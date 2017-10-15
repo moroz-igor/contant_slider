@@ -17,9 +17,9 @@ $(function() {
                             ++temp;
                             temp_number = 'images/gal/' +  temp  + '_mini.jpg';
                             $(alt).attr('src',temp_number);
-                                bigImg = $('a[name=big_' + i + ']').attr('href');
+                                bigImg = $('a[id=big_' + i + ']').attr('href');
                                 bigImg = 'images/gal/' + temp + '.jpg';  
-                                $('a[name=big_' + i + ']').attr('href', bigImg);
+                                $('a[id=big_' + i + ']').attr('href', bigImg);
                             
                     }
             } else return;
@@ -35,9 +35,9 @@ $(function() {
                             --temp;
                             temp_number = 'images/gal/' +  temp  + '_mini.jpg';
                             $(alt).attr('src',temp_number);
-                                bigImg = $('a[name=big_' + i + ']').attr('href');
+                                bigImg = $('a[id=big_' + i + ']').attr('href');
                                 bigImg = 'images/gal/' + temp + '.jpg';  
-                                $('a[name=big_' + i + ']').attr('href', bigImg);
+                                $('a[id=big_' + i + ']').attr('href', bigImg);
                     }
             } else return;
            

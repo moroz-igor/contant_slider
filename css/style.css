@@ -49,7 +49,6 @@ h2 {
 }
 
 #gallery {
-    //text-align: center;
     padding: 20px;
     border: 1px solid #cccccc;
     width: 650px;
@@ -59,9 +58,6 @@ h2 {
 
 #big {
     margin: 0 auto;
-    background-image: url("../images/gal/loader.gif");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
     width: 483px;
     height: 302px;
     border: 1px dotted #cccccc;
@@ -88,8 +84,9 @@ i {
     margin-top: 30px;
     color: azure;
 }
-.fa-github:hover{
-          color: red;
+
+.fa-github:hover {
+    color: red;
 }
 
 footer {
