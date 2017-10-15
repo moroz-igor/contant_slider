@@ -1,0 +1,107 @@
+/* Slider of content */
+
+body {
+    background: #222 url('../images/bg.gif') repeat;
+    color: #fff;
+    -moz-text-shadow: 0 -1px 0 #000;
+    -webkit-text-shadow: 0 -1px 0 #000;
+    text-shadow: 0 -1px 0 #000;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.bg-gradient {
+    position: fixed;
+    width: 1000px;
+    height: 1000px;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    margin: -500px 0 0 -500px;
+    background: url('../images/bg-gradient.png') no-repeat center;
+}
+
+.description {
+    text-align: center;
+    margin-top: 10%
+}
+
+h1,
+h2 {
+    margin: 0;
+    color: #eee;
+    -moz-text-shadow: 0 3px 3px #000000;
+    -webkit-text-shadow: 0 3px 3px #000000;
+    text-shadow: 0 3px 3px #000000;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0 0 10px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.element_2 {
+    width: 483px
+}
+
+#gallery {
+    //text-align: center;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    width: 650px;
+    margin: 10px auto;
+    height: 380px;
+}
+
+#big {
+    margin: 0 auto;
+    background-image: url("../images/gal/loader.gif");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 483px;
+    height: 302px;
+    border: 1px dotted #cccccc;
+}
+
+.minni {
+    margin: 10px auto;
+    text-align: center
+}
+
+#small a img {
+    border: none;
+}
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+i {
+    margin-top: 30px;
+    color: azure;
+}
+.fa-github:hover{
+          color: red;
+}
+
+footer {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+    color: #777;
+}
+
+footer p {
+    margin: .5em 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: italic;
+}
