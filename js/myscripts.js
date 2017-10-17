@@ -8,7 +8,7 @@ $(function() {
         });
        $('.fa-chevron-right').click(function(eventObject){
            eventObject.preventDefault();
-            if(+($('img[alt=min_4]').attr('src')[11] + $('img[alt=min_4]').attr('src')[12]) < 22){
+            if(+($('img[alt=min_4]').attr('src')[11] + $('img[alt=min_4]').attr('src')[12]) < 23){
                 var temp_number, alt, temp, bigImg;
                     for(var i = 1; i <= 4 ; i++){
                         alt ='img[alt=min_' + i + ']';
